@@ -1,4 +1,4 @@
-// array is immutable 
+// String is immutable 
 
 let division = 'Dhaka';
 console.log(division)
