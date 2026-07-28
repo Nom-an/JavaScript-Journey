@@ -13,3 +13,8 @@ console.log(number)
 
 number.shift();
 console.log(number);
+
+// for first insert 
+
+number.unshift(333);
+console.log(number);
