@@ -13,3 +13,16 @@ function additionMachine (input1, input2){
 }
 
 additionMachine(10,23);
+
+
+function divisionMachine ( input1, input2 ){
+    div = input1 / input2;
+    console.log(" The division result is "+ div);
+    return div;
+}
+
+// divisionMachine(60,20);
+
+
+const result = divisionMachine(60, 20);
+console.log(result);
