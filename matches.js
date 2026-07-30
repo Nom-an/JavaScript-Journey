@@ -22,3 +22,19 @@ const products=[
 //     console.log(product);
 // }
 
+function matchProducts (products, search){
+    let match=[];
+       for( const product of products){
+       if (product.name.includes(search)){
+        match.push(product);
+       }
+        
+
+       }
+
+       const result = matchProducts( , 'samsung');
+
+       console.log(result);
+
+
+}
