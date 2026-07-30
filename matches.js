@@ -18,6 +18,7 @@ const products=[
     {id:10, name: 'lava', price: 585000},
 ]
 
-function matches(name, search){
-    
-}
+// for ( const product of products ){
+//     console.log(product);
+// }
+
